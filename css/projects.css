@@ -3,10 +3,23 @@ html, body {
 	width: 100%;
 }
 
+nav {
+	background-color: #337EC0;
+	opacity: 0.85;
+	border: 0;
+	transition: top 0.2s ease-in-out;
+}
+
 .navbar {
 	font-family: roboto;
 	background-color: #337EC0;
-	opacity: 0.85;
+	border: 0;
+}
+
+.nav-up {
+    	top: -50px;
+    	font-family: roboto;
+	background-color: #337EC0;
 	border: 0;
 }
 
@@ -51,16 +64,6 @@ html, body {
 	}
 }
 
-.img-responsive {
-	height: 500px;
-	background-color: lightgrey;
-	margin-top: 100px;
-	margin-right: auto;
-	margin-bottom: 20px;
-	margin-left: auto;
-	display: block;
-}
-
 #title h3 {
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -99,3 +102,23 @@ hr {
 	height: 40px;
 }
 
+@media screen and (min-width: 820px) {
+	.img-responsive {
+	height: 500px;
+	background-color: lightgrey;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar .navbar-brand {
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 18px;
+		color: white;
+	}
+}
