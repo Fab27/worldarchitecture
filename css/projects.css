@@ -7,7 +7,7 @@ nav {
 	background-color: #337EC0;
 	opacity: 0.85;
 	border: 0;
-	transition: top 0.2s ease-in-out;
+	transition: top 0.2s;
 }
 
 .navbar {
